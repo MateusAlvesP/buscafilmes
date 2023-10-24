@@ -1,4 +1,5 @@
-# Movieland
+# Buscafilmes
 
 This is a React project created to find movies info on imdb.
-To access the site [click here](https://mateusalvesp.github.io/movieland/).
+Esse é um projeto React criado para encontrar informações de filmes no IMDB.
+Para acessar o site [clique aqui](https://mateusalvesp.github.io/buscafilmes/).
