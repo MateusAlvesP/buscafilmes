@@ -33,6 +33,12 @@ const App = () => {
     searchMovies('Batman');
   }, []);
 
+  const handleKeyDown = (e : React.KeyboardEvent) => {
+    if (e.key === "Enter") {
+      searchMovies(searchTerm)
+    }
+  }
+
   return (
     <div className="app">
       <h1> Buscafilmes </h1>
@@ -42,6 +48,7 @@ const App = () => {
           placeholder="Search for movies"
           value={searchTerm}
           onChange={(e) => {setSearchTerm(e.target.value)}}
+          onKeyDown={handleKeyDown}
         />
         <img 
           src={SearchIcon}
