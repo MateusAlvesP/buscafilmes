@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/buscafilmes/static/css/main.334bdeb1.css",
-    "main.js": "/buscafilmes/static/js/main.a7cbff95.js",
+    "main.js": "/buscafilmes/static/js/main.715d7548.js",
     "index.html": "/buscafilmes/index.html",
     "static/media/search.svg": "/buscafilmes/static/media/search.981b582ea232c3cb047eca919deaf9e8.svg",
     "main.334bdeb1.css.map": "/buscafilmes/static/css/main.334bdeb1.css.map",
-    "main.a7cbff95.js.map": "/buscafilmes/static/js/main.a7cbff95.js.map"
+    "main.715d7548.js.map": "/buscafilmes/static/js/main.715d7548.js.map"
   },
   "entrypoints": [
     "static/css/main.334bdeb1.css",
-    "static/js/main.a7cbff95.js"
+    "static/js/main.715d7548.js"
   ]
 }
