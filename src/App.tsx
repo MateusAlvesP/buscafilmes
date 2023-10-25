@@ -45,7 +45,7 @@ const App = () => {
 
       <div className='search'>
         <input
-          placeholder="Search for movies"
+          placeholder="Digite o nome de um filme"
           value={searchTerm}
           onChange={(e) => {setSearchTerm(e.target.value)}}
           onKeyDown={handleKeyDown}
@@ -66,7 +66,7 @@ const App = () => {
           </div>
         ) : (
           <div className='empty'>
-            <h2> No movies found </h2>
+            <h2> Nenhum filme encontrado </h2>
           </div>
         )
 
